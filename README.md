@@ -9,7 +9,8 @@ A friend of mine created this repo https://github.com/phanan/htaccess. How Hapro
 ## Security
 ### Prevent Framing the Site
 This prevents the website to be framed (i.e. put into an `iframe` tag).
-To configure HAProxy to send the X-Frame-Options header, add this to your frontend, listen, or backend configuration:
+To configure HAProxy to send the X-Frame-Options header, add this to your frontend, listen, or backend configuration.
+See others (https://sathian.wordpress.com/2015/04/30/x-frame-options/)
 ``` haproxy.cfg
 rspadd X-Frame-Options:\ SAMEORIGIN
 ```
