@@ -5,6 +5,7 @@ A friend of mine created this repo https://github.com/phanan/htaccess. How Hapro
 ## Table of Contents
 - [Security](#security)
   - [Prevent Framing the Site](#prevent-framing-the-site)
+
 ## Security
 ### Prevent Framing the Site
 This prevents the website to be framed (i.e. put into an `iframe` tag).
